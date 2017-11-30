@@ -147,3 +147,4 @@ tags
 
 # secret files
 api_secret_keys.json
+.idea/
