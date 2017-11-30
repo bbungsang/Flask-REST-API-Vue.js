@@ -2,7 +2,7 @@ import os
 import json
 
 from flaskext.mysql import MySQL
-from flask import Flask
+from flask import Flask, request
 from flask_restful import Resource, Api
 from flask_restful import reqparse
 
@@ -23,26 +23,33 @@ mysql.init_app(app)
 
 conn = mysql.connect()
 cursor = conn.cursor()
-cursor.execute("select * from nonsense_quiz")
-data = cursor.fetchall()
 
-items_list = []
-
-for item in data:
-    i = {
-        "id": item[0],
-        "question": item[1],
-        "answer": item[2],
-        "hint": item[3]
-    }
-    items_list.append(i)
-
-
-class Test(Resource):
+class NonsenseQuiz(Resource):
     def get(self):
-        return i
+        cursor.execute("SELECT * FROM nonsense_quiz")
+        data = cursor.fetchall()
 
-api.add_resource(Test, '/create/quiz')
+        result = []
+        columns = "id", "question", "answer", "hint"
+
+        for row in data:
+            result.append(dict(zip(columns, row)))
+        return result
+
+    def post(self):
+        question = request.form['question']
+        answer = request.form['answer']
+        hint = request.form['hint']
+
+        query = "INSERT INTO nonsense_quiz \
+        (question, answer, hint) VALUES \
+        ('" + question + "', '" + answer + "', '" + hint + "');"
+        cursor.execute(query)
+        conn.commit();
+
+        return "success"
+
+api.add_resource(NonsenseQuiz, '/create/quiz')
 
 if __name__ == '__main__':
     app.run(debug=True)
