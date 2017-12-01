@@ -148,3 +148,6 @@ tags
 # secret files
 api_secret_keys.json
 .idea/
+
+app/static/node_modules/
+app/static/package-lock.json

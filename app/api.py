@@ -4,15 +4,16 @@ import json
 from flaskext.mysql import MySQL
 from flask import Flask, request
 from flask_restful import Resource, Api
-from flask_restful import reqparse
+from flask_cors import CORS, cross_origin
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 api_secret_keys = json.loads(open(os.path.join(BASE_DIR, 'api_secret_keys.json')).read())
 
-
 app = Flask(__name__)
 api = Api(app)
+cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
+# app.config['CORS_HEADERS'] = 'Content-Type'
 
 # mysql 연결
 mysql = MySQL()
@@ -49,7 +50,7 @@ class NonsenseQuiz(Resource):
 
         return "success"
 
-api.add_resource(NonsenseQuiz, '/create/quiz')
+api.add_resource(NonsenseQuiz, '/api/quiz')
 
 if __name__ == '__main__':
     app.run(debug=True)
