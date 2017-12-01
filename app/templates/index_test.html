@@ -10,11 +10,18 @@
 </head>
 <body>
 <div id="app">
+  <ul v-for="quiz in quiz_list">
+    <li>{{ quiz.question }}</li>
+    <li>{{ quiz.answer }}</li>
+    <li>{{ quiz.hint }}</li>
+  </ul>
   <h1>아재 모의고사</h1>
-  Q. {{ quiz_list.question }}
-  <input type="text" v-model="answer" />
-  <button v-on:click="sendToServer()" v-bind:value="answer">정답 확인</button>
-  <button>힌트 보기</button>
+  Q. 부부가 산에 올라가면?
+  <form action="">
+    <input type="text" />
+    <button type="submit">정답 확인</button>
+    <button>힌트 보기</button>
+  </form>
 </div>
 </body>
 
