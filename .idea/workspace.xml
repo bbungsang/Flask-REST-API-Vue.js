@@ -2,7 +2,212 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb4a2acc-cc2f-439c-a7ac-f3eb146bad13" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/index_test.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/axios/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/axios/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/axios/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/axios/UPGRADE_GUIDE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/axios/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/axios/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/axios/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/debug/.coveralls.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/debug/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/debug/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/debug/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/debug/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/debug/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/debug/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/debug/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/debug/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/debug/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/debug/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/debug/src/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/debug/src/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/debug/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/debug/src/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/follow-redirects/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/follow-redirects/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/follow-redirects/http.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/follow-redirects/https.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/follow-redirects/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/follow-redirects/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/is-buffer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/is-buffer/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/is-buffer/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/is-buffer/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/is-buffer/test/basic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/ms/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/ms/license.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/ms/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/ms/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/codegen/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/codegen/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/create-compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/directives/bind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/directives/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/directives/model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/directives/on.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/error-detector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/optimizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/parser/entity-decoder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/parser/filter-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/parser/html-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/parser/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/parser/text-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/compiler/to-function.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/components/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/components/keep-alive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/global-api/assets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/global-api/extend.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/global-api/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/global-api/mixin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/global-api/use.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/observer/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/observer/dep.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/observer/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/observer/scheduler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/observer/traverse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/observer/watcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/util/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/util/env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/util/error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/util/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/util/lang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/util/next-tick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/util/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/util/perf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/util/props.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/create-component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/create-element.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/create-functional-component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/helpers/extract-props.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/helpers/get-first-component-child.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/helpers/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/helpers/is-async-placeholder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/helpers/merge-hook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/helpers/normalize-children.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/helpers/resolve-async-component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/helpers/update-listeners.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/modules/directives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/modules/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/modules/ref.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/patch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/core/vdom/vnode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/compiler/directives/html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/compiler/directives/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/compiler/directives/model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/compiler/directives/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/compiler/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/compiler/modules/class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/compiler/modules/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/compiler/modules/model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/compiler/modules/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/compiler/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/compiler/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/entry-compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/entry-runtime-with-compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/entry-runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/entry-server-basic-renderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/entry-server-renderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/class-util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/components/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/components/transition-group.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/components/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/directives/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/directives/model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/directives/show.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/modules/attrs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/modules/class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/modules/dom-props.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/modules/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/modules/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/modules/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/modules/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/node-ops.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/patch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/runtime/transition-util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/server/compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/server/directives/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/server/directives/model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/server/directives/show.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/server/modules/attrs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/server/modules/class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/server/modules/dom-props.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/server/modules/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/server/modules/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/server/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/util/attrs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/util/class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/util/compat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/util/element.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/util/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/web/util/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/compiler/directives/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/compiler/directives/model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/compiler/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/compiler/modules/append.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/compiler/modules/class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/compiler/modules/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/compiler/modules/props.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/compiler/modules/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/entry-compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/entry-framework.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/entry-runtime-factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/runtime/components/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/runtime/components/richtext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/runtime/components/transition-group.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/runtime/components/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/runtime/directives/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/runtime/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/runtime/modules/attrs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/runtime/modules/class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/runtime/modules/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/runtime/modules/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/runtime/modules/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/runtime/modules/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/runtime/node-ops.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/runtime/patch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/runtime/text-node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/platforms/weex/util/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/bundle-renderer/create-bundle-renderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/bundle-renderer/create-bundle-runner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/bundle-renderer/source-map-support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/create-basic-renderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/create-renderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/optimizing-compiler/codegen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/optimizing-compiler/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/optimizing-compiler/modules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/optimizing-compiler/optimizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/optimizing-compiler/runtime-helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/render-context.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/render-stream.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/render.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/template-renderer/create-async-file-mapper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/template-renderer/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/template-renderer/parse-template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/template-renderer/template-stream.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/webpack-plugin/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/webpack-plugin/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/webpack-plugin/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/server/write.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/sfc/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/shared/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/src/shared/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/types/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/types/options.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/types/plugin.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/types/vnode.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/node_modules/vue/types/vue.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/package-lock.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/index_test.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/api.py" afterPath="$PROJECT_DIR$/app/api.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/js/app.js" afterPath="$PROJECT_DIR$/app/static/js/app.js" />
@@ -21,12 +226,13 @@
       <file leaf-file-name="api.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="14">
+              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1512118337000" expanded="true" signature="837:874" ph="SELECT * FRO... nonsense_quiz" />
-                <marker date="1512118337000" expanded="true" signature="1193:1230" ph="SELECT * FRO... nonsense_quiz" />
+                <marker date="1512194172000" expanded="true" signature="837:864" ph="SELECT * FRO... nonsense_quiz" />
+                <marker date="1512194172000" expanded="true" signature="932:969" ph="SELECT * FRO... nonsense_quiz" />
+                <marker date="1512194172000" expanded="true" signature="1227:1264" ph="SELECT * FRO... nonsense_quiz" />
               </folding>
             </state>
           </provider>
@@ -54,9 +260,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="741" />
+    <option name="x" value="641" />
     <option name="y" value="23" />
-    <option name="width" value="698" />
+    <option name="width" value="798" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
@@ -309,10 +515,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="741" y="23" width="698" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="641" y="23" width="798" height="877" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25457317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25396827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -320,7 +525,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30566534" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30566534" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -386,12 +591,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="14">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1512118337000" expanded="true" signature="837:874" ph="SELECT * FRO... nonsense_quiz" />
-            <marker date="1512118337000" expanded="true" signature="1193:1230" ph="SELECT * FRO... nonsense_quiz" />
+            <marker date="1512194172000" expanded="true" signature="837:864" ph="SELECT * FRO... nonsense_quiz" />
+            <marker date="1512194172000" expanded="true" signature="932:969" ph="SELECT * FRO... nonsense_quiz" />
+            <marker date="1512194172000" expanded="true" signature="1227:1264" ph="SELECT * FRO... nonsense_quiz" />
           </folding>
         </state>
       </provider>

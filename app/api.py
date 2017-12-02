@@ -28,15 +28,15 @@ cursor = conn.cursor()
 
 class NonsenseQuiz(Resource):
     def get(self, q_id):
+        cursor.execute("SELECT * FROM nonsense_quiz")
+        last_q = len(cursor.fetchall())
+
         cursor.execute("SELECT * FROM nonsense_quiz WHERE id=" + q_id)
         data = cursor.fetchall()
 
-        # result = []
         columns = "id", "question", "answer", "hint"
-
-        # for row in data:
-        #     result.append(dict(zip(columns, row)))
         result = dict(zip(columns, data[0]))
+        result.update({"last_q": last_q})
 
         return result
 

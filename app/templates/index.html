@@ -9,17 +9,16 @@
   <title>Vue Test</title>
 </head>
 <body>
-<div id="app">
-  <h1>아재 모의고사</h1>
-  Q. {{ quiz_list.question }}
-  <input type="text" v-model="answer" />
-  <button v-on:click="sendToServer()" v-bind:value="answer">정답 확인</button>
-  <button>힌트 보기</button>
-</div>
+  <div id="app">
+    <h1>아재 모의고사</h1>
+    <p id="Q">Q. {{ quiz_list.question }}</p>
+    <button v-on:click="prevQ()">이전 문제</button>
+    <input type="text" v-model="answer" />
+    <button v-on:click="sendToServer()" v-bind:value="answer">정답 확인</button>
+    <button v-on:click="showHint()">힌트 보기</button>
+    <!-- <button v-on:click="" style="display: none">정답 보기</button> -->
+    <button v-on:click="nextQ()">다음 문제</button>
+  </div>
 </body>
-
-<!-- <script src="static/node_modules/vue/dist/vue.link.js"></script>
-<script src="static/node_modules/vue-resource/dist/vue-resource.min.js"></script> -->
 <script src="../static/js/app.js"></script>
-
 </html>
