@@ -26,7 +26,7 @@ conn = mysql.connect()
 cursor = conn.cursor()
 
 
-class NonsenseQuiz(Resource):
+class SolveQuiz(Resource):
     def get(self, q_id):
         cursor.execute("SELECT * FROM nonsense_quiz")
         last_q = len(cursor.fetchall())
@@ -48,9 +48,15 @@ class NonsenseQuiz(Resource):
         result = request.data.decode("utf-8")
 
         if db_answer != result[1:-1].split(":")[1][1:-1]:
-            return {"result": "틀렸습니다."}
+            return {
+                "check": "틀렸습니다",
+                "next": False
+            }
 
-        return {"result": "정답입니다."}
+        return {
+            "check": "정답입니다",
+            "next": True
+        }
 
     # def post(self):
     #     question = request.form['question']
@@ -65,7 +71,7 @@ class NonsenseQuiz(Resource):
     #
     #     return "success"
 
-api.add_resource(NonsenseQuiz, '/api/quiz/<q_id>')
+api.add_resource(SolveQuiz, '/api/solve/<q_id>')
 
 if __name__ == '__main__':
     app.run(debug=True)

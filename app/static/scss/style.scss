@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* NanumBarunpen 웹폰트 적용 */
+@font-face {
+  font-family: NanumBarunpen;
+  src: url("/static/font/NanumBarunpen.eot") format('eot');
+}
+
+#app {
+  // background: url("https://s3.ap-northeast-2.amazonaws.com/usedbookstore-bucket/static/images/book-bg2.jpg");
+  // background-repeat: no-repeat;
+  // background-size: cover;
+
+  .prev-btn {
+    width: 10%;
+    height: 100px;
+    margin: 125px 0;
+    background: transparent;
+    border: none;
+    color: #ddd;
+    cursor: pointer;
+    float: left;
+
+    .im-angle-left {
+      font-size: 40px;
+
+      &:hover {
+        color: #828282;
+      }
+    }
+  }
+
+  .contents {
+    width: 75%;
+    height: 350px;
+    padding: 3.5% 2.5%;
+    text-align: center;
+    font-family: 'NanumBarunpen';
+    font-size: 24px;
+    float: left;
+
+    .answer {
+      width: 70%;
+      margin: 0 15%;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid #333;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .btn {
+      border: none;
+      border-radius: 0;
+      margin: 45px 5px 15px 5px;
+      padding: 8px 60px;
+      background: #333;
+      color: #fafafa;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    p {
+      a {
+        color: #24A6BD;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .next-btn {
+    width: 10%;
+    height: 100px;
+    margin: 125px 0;
+    background: transparent;
+    border: none;
+    color: #ddd;
+    cursor: pointer;
+
+    .im-angle-right {
+      font-size: 40px;
+
+      &:hover {
+        color: #828282;
+      }
+    }
+  }
+
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+
+    .modal-content {
+      background: #fff;
+      margin: 15% auto;
+      padding: 5%;
+      border: 1px solid #888;
+      border-radius: 10px;
+      width: 65%;
+      height: 25%;
+
+      h1 {
+        color: #5FCEC0;
+      }
+
+      .close {
+        border: none;
+        border-radius: 0;
+        margin: 15px 0;
+        padding: 8px 60px;
+        background: #333;
+        color: #fafafa;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+  }
+}
