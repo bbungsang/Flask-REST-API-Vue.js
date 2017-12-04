@@ -12,7 +12,7 @@
 </head>
 <body>
   <div id="app">
-    <!-- 문제 풀기 -->
+    <!-- 문제 추가하기 -->
     <section class="create-form" v-if="create == true">
       <h1>
         <i class="im im-quote-left"></i>
@@ -29,6 +29,8 @@
         <button class="add-btn" v-on:click="createQuiz()">문제 추가하기</button>
       </form>
     </section>
+
+    <!-- 문제 풀기 -->
     <section v-else>
       <button v-on:click="prevQ()" class="prev-btn">
         <i class="im im-angle-left"></i>
@@ -51,7 +53,6 @@
         <i class="im im-angle-right"></i>
       </button>
 
-      <!--  -->
       <div id="myModal" class="modal">
         <div class="modal-content" v-if="result.next == true">
           <h1>{{ result.check }}!</h1>
