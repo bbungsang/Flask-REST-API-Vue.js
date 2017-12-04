@@ -5,3 +5,5 @@
 
 ### Frontend
 - [Framework] Vue.js
+
+[동영상](https://www.youtube.com/watch?v=W2qJuCuEWsc)
