@@ -7,8 +7,11 @@ var app = new Vue({
   data: {
     quiz_list: [],
     answer: "",
+    question: "",
+    hint: "",
     result: "",
     click: 0,
+    create: ""
   },
   created() {
     axios.get('http://127.0.0.1:5000/api/solve/' + count)
@@ -20,7 +23,7 @@ var app = new Vue({
     });
   },
   methods: {
-    showHint: function() {
+    showHint: function () {
       this.click++;
       var hint = document.getElementsByClassName("hint");
       if(this.click % 2 != 0) {
@@ -31,7 +34,7 @@ var app = new Vue({
         history.go(-1);
       }
     },
-    sendToServer: function() {
+    sendToServer: function () {
       axios({
         method: 'post',
         url: 'http://127.0.0.1:5000/api/solve/' + count,
@@ -77,6 +80,28 @@ var app = new Vue({
           this.errors.push(e)
         });
       history.go(0);
+    },
+    createQuizForm: function () {
+      this.create = true;
+    },
+    createQuiz: function () {
+      axios({
+        method: 'post',
+        url: 'http://127.0.0.1:5000/api/create/',
+        data: {
+          question: this.question,
+          answer: this.answer,
+          hint: this.hint
+        }
+      })
+      .then(response => {
+        this.result = response.data;
+      })
+      .catch(e => {
+        this.errors.push(e)
+      });
+      alert("문제가 추가되었습니다 ;D");
+      history.go(-1);
     }
   }
 });

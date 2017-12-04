@@ -12,36 +12,59 @@
 </head>
 <body>
   <div id="app">
-    <button v-on:click="prevQ()" class="prev-btn">
-      <i class="im im-angle-left"></i>
-    </button>
-    <section class="contents">
-      <h1>아재모의고사</h1>
-      <p id="Q">Q: {{ quiz_list.question }}</p>
-      <input type="text" v-model="answer" class="answer" />
-      <button class="btn" id="myBtn" v-on:click="sendToServer()" v-bind:value="answer">정답 확인</button>
-      <button class="btn hint" v-on:click="showHint()">힌트 보기</button>
-      <p>
-        <a href="#">~m*0*m~ 아재력 뽐내러 가기 ♥3♥</a>
-      </p>
+    <!-- 문제 풀기 -->
+    <section class="create-form" v-if="create == true">
+      <h1>
+        <i class="im im-quote-left"></i>
+        아재력 뽐내기
+        <i class="im im-quote-right"></i>
+      </h1>
+      <form>
+        <label class="label" for="question">문제</label>
+        <input class="input" type="text" name="question" v-model="question" required>
+        <label class="label" for="answer">답</label>
+        <input class="input" type="text" name="answer" v-model="answer" required>
+        <label class="label" for="hint">힌트</label>
+        <input class="input" type="text" name="hint" v-model="hint" required>
+        <button class="add-btn" v-on:click="createQuiz()">문제 추가하기</button>
+      </form>
     </section>
-    <button v-on:click="nextQ()" class="next-btn">
-      <i class="im im-angle-right"></i>
-    </button>
+    <section v-else>
+      <button v-on:click="prevQ()" class="prev-btn">
+        <i class="im im-angle-left"></i>
+      </button>
+      <section class="contents">
+        <h1>
+          <i class="im im-quote-left"></i>
+          아재 모의고사
+          <i class="im im-quote-right"></i>
+        </h1>
+        <p id="Q">Q: {{ quiz_list.question }}</p>
+        <input type="text" v-model="answer" class="answer" />
+        <button class="btn" id="myBtn" v-on:click="sendToServer()" v-bind:value="answer">정답 확인</button>
+        <button class="btn hint" v-on:click="showHint()">힌트 보기</button>
+        <p>
+          <a href="#" v-on:click="createQuizForm()">~m*0*m~ 아재력 뽐내러 가기 ♥3♥</a>
+        </p>
+      </section>
+      <button v-on:click="nextQ()" class="next-btn">
+        <i class="im im-angle-right"></i>
+      </button>
 
-    <!--  -->
-    <div id="myModal" class="modal">
-      <div class="modal-content" v-if="result.next == true">
-        <h1>{{ result.check }}!</h1>
-        <h3>올ㅋ 님, bottle의 神력 쩌는 듯? ㅊㅋㅊㅋ</h3>
-        <button class="close" v-on:click="nextQ()">다음 문제 보기</button>
+      <!--  -->
+      <div id="myModal" class="modal">
+        <div class="modal-content" v-if="result.next == true">
+          <h1>{{ result.check }}!</h1>
+          <h3>올ㅋ 님, bottle의 神력 쩌는 듯? ㅊㅋㅊㅋ</h3>
+          <button class="close" v-on:click="nextQ()">다음 문제 보기</button>
+        </div>
+        <div class="modal-content" v-else>
+          <h1>{{ result.check }}..</h1>
+          <h3>그러나 낙심하지마세요! 틀리는 것이 정상입니다 :)</h3>
+          <button class="close">다시 풀어 보기</button>
+        </div>
       </div>
-      <div class="modal-content" v-else>
-        <h1>{{ result.check }}..</h1>
-        <h3>그러나 낙심하지마세요! 틀리는 것이 정상입니다 :)</h3>
-        <button class="close">다시 풀어 보기</button>
-      </div>
-    </div>
+    </section>
   </div>
 </body>
 <script src="../static/js/app.js"></script>

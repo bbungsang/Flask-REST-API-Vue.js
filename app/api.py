@@ -12,10 +12,11 @@ api_secret_keys = json.loads(open(os.path.join(BASE_DIR, 'api_secret_keys.json')
 
 app = Flask(__name__)
 api = Api(app)
-cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
-# app.config['CORS_HEADERS'] = 'Content-Type'
 
-# mysql 연결
+# CORS 설정
+cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
+
+# MySQL 연결
 mysql = MySQL()
 app.config['MYSQL_DATABASE_USER'] = api_secret_keys['mysql']['user']
 app.config['MYSQL_DATABASE_PASSWORD'] = api_secret_keys['mysql']['password']
@@ -27,6 +28,8 @@ cursor = conn.cursor()
 
 
 class SolveQuiz(Resource):
+    """ 넌센스 퀴즈 보기 및 풀기 """
+
     def get(self, q_id):
         cursor.execute("SELECT * FROM nonsense_quiz")
         last_q = len(cursor.fetchall())
@@ -58,20 +61,25 @@ class SolveQuiz(Resource):
             "next": True
         }
 
-    # def post(self):
-    #     question = request.form['question']
-    #     answer = request.form['answer']
-    #     hint = request.form['hint']
-    #
-    #     query = "INSERT INTO nonsense_quiz \
-    #     (question, answer, hint) VALUES \
-    #     ('" + question + "', '" + answer + "', '" + hint + "');"
-    #     cursor.execute(query)
-    #     conn.commit();
-    #
-    #     return "success"
+
+class CreateQuiz(Resource):
+    """ 퀴즈 추가하기 """
+
+    def post(self):
+        s = request.data.decode("utf-8")
+        result = json.loads(s.replace("'", "\""))
+        question = result['question']
+        answer = result['answer']
+        hint = result['hint']
+        query = "INSERT INTO nonsense_quiz \
+        (question, answer, hint) VALUES \
+        ('" + question + "', '" + answer + "', '" + hint + "');"
+        cursor.execute(query)
+        conn.commit();
+        return "success"
 
 api.add_resource(SolveQuiz, '/api/solve/<q_id>')
+api.add_resource(CreateQuiz, '/api/create/')
 
 if __name__ == '__main__':
     app.run(debug=True)
